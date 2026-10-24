@@ -37,3 +37,13 @@ What did you accomplish in this phase? How does the ability to parse strings int
 In this phase I was able to add an Archive Report to the Utility class that print the total number of artifacts registered, formats the universal cataloging constant, and process raw log string to display current system energy. 
 
 Real-world data logs come in plain text strings and with using wrapper class we can convert the text strings into actual numbers that Java can process. This makes it easier for us to run calculations and process data.
+
+
+
+Phase 5 
+
+What bugs or unexpected behaviors did you catch while testing your program? If you used an AI tutor for feedback, what did it suggest, and did you choose to make any changes? Explain your reasoning.
+
+I did not catch any bugs or unexpected behaviors as the program performed as expected. 
+
+Gemini recommended using a collection (like a list) to manage the artifacts, which I completely agree is a great practice. However, I decided not to implement it yet since my current program isn't designed to scale to that level. It also suggested more advanced features like adding try-catch error handling for string parsing and implementing real file I/O.
