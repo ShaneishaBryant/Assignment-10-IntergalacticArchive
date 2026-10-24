@@ -1,18 +1,29 @@
 public class Main {
     public static void main(String[] args) {
 
-        //display the Universal Cataloging Constant
-        System.out.println("Universal Cataloging Constant: " + Artifact.UNIVERSAL_CATALOGING_CONSTANT);
         System.out.println();
 
         //check if tracking works
         Artifact artifact1 = new Artifact("Goblet of Fire", 7658);
         Artifact artifact2 = new Artifact("Elder Wand", 9800);
+        Artifact artifact3 = new Artifact("Spell Book Vol. 1", 3405);
+        Artifact artifact4 = new Artifact("Sell Book Vol 2", 4574);
 
-        System.out.println("Total number of Artifacts: " + Artifact.getTotalArtifactsCreated());
+        String rawLogEntry = "105.75";
+
+        //display archive report
+        Utility.displayArchiveReport(rawLogEntry);
+
+
+
+        //TESTING PROGRAM
+        //display the Universal Cataloging Constant
+        //System.out.println("Universal Cataloging Constant: " + Artifact.UNIVERSAL_CATALOGING_CONSTANT);
+
+        /*System.out.println("Total number of Artifacts: " + Artifact.getTotalArtifactsCreated());
         System.out.println();
 
-        //test utility calculator
+        test utility calculator
         double energyLevel1 = 8.9234;
         double energyLevel2 = 3.3434;
 
@@ -20,7 +31,9 @@ public class Main {
         double stability2 = Utility.stabilityIndexCalculations(energyLevel2);
 
         System.out.println("Stability Index: " + stability1);
-        System.out.println("Stability Index: " + stability2);
+        System.out.println("Stability Index: " + stability2);*/
+
+
 
     }
 }

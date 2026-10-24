@@ -29,3 +29,11 @@ In this phase, I built a utility class to handle the Stability Index calculation
 I learned that static utility methods are best when you're just taking in parameters, doing a calculation, and returning a result without needing any individual object's state. On the other hand, instance methods are better when you need to access or modify a specific object's fields.
 
 
+
+Phase 4
+
+What did you accomplish in this phase? How does the ability to parse strings into numbers (using wrapper classes) help when dealing with real-world data like log files?
+
+In this phase I was able to add an Archive Report to the Utility class that print the total number of artifacts registered, formats the universal cataloging constant, and process raw log string to display current system energy. 
+
+Real-world data logs come in plain text strings and with using wrapper class we can convert the text strings into actual numbers that Java can process. This makes it easier for us to run calculations and process data.
