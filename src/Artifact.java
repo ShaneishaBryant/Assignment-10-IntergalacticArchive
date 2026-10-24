@@ -1,4 +1,7 @@
 public class Artifact {
+    //Universal Cataloging Constant - double, cannot be changed
+    public static final double UNIVERSAL_CATALOGING_CONSTANT = 3.14159;
+
     private String name;
     //wrapper Integer class
     private Integer id;
