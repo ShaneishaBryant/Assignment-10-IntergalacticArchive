@@ -10,6 +10,17 @@ public class Main {
         Artifact artifact2 = new Artifact("Elder Wand", 9800);
 
         System.out.println("Total number of Artifacts: " + Artifact.getTotalArtifactsCreated());
+        System.out.println();
+
+        //test utility calculator
+        double energyLevel1 = 8.9234;
+        double energyLevel2 = 3.3434;
+
+        double stability1 = Utility.stabilityIndexCalculations(energyLevel1);
+        double stability2 = Utility.stabilityIndexCalculations(energyLevel2);
+
+        System.out.println("Stability Index: " + stability1);
+        System.out.println("Stability Index: " + stability2);
 
     }
 }

@@ -17,3 +17,15 @@ In this phase, I created the Universal Cataloging Constant using a double for de
 
 With static final variables you are able to apply to the entire class and this variable cannot be altered. Whereas with a standard instance variable it only applies to an individual object.
 
+
+
+Phase 3
+
+What did you accomplish in this phase? What did you learn about when it is more appropriate to use a static utility method rather than an instance method?
+
+In this phase, I built a utility class to handle the Stability Index calculation using Math.sqrt() and Math.abs(), making the method globally accessible across the application by using the static keyword.
+
+
+I learned that static utility methods are best when you're just taking in parameters, doing a calculation, and returning a result without needing any individual object's state. On the other hand, instance methods are better when you need to access or modify a specific object's fields.
+
+
